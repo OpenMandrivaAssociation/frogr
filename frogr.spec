@@ -29,7 +29,7 @@ descriptions, setting tags and managing sets and groups pools.
 
 %install
 %makeinstall_std
-%find_lang %{name}
+%find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
 %doc AUTHORS ChangeLog COPYING NEWS README THANKS
