@@ -7,7 +7,6 @@ Group:		Graphical desktop/GNOME
 Url:		https://live.gnome.org/Frogr
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
-BuildRequires:	update-desktop-files
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-doc-utils)
 BuildRequires:	pkgconfig(gtk+-3.0)
