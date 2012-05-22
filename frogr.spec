@@ -3,7 +3,7 @@ Name:		frogr
 Version:	0.7
 Release:	1
 License:	GPLv3
-Group:		Productivity/Graphics/Other
+Group:		Graphical desktop/GNOME
 Url:		https://live.gnome.org/Frogr
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
