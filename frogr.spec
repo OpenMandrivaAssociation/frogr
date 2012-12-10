@@ -40,3 +40,10 @@ descriptions, setting tags and managing sets and groups pools.
 %{_datadir}/icons/hicolor/*/apps/frogr.*
 %{_mandir}/man1/frogr.1*
 
+
+
+%changelog
+* Tue May 22 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.7-1
++ Revision: 800071
+- imported package frogr
+
