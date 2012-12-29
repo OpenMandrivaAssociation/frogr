@@ -1,11 +1,13 @@
+%define url_ver %(echo %{version} | cut -d. -f1,2)
+
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
-Version:	0.7
+Version:	0.8
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/GNOME
 Url:		https://live.gnome.org/Frogr
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}-%{version}.tar.xz
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/frogr/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-doc-utils)
@@ -40,10 +42,4 @@ descriptions, setting tags and managing sets and groups pools.
 %{_datadir}/icons/hicolor/*/apps/frogr.*
 %{_mandir}/man1/frogr.1*
 
-
-
-%changelog
-* Tue May 22 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.7-1
-+ Revision: 800071
-- imported package frogr
 
