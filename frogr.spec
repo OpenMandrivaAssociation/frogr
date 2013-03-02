@@ -1,4 +1,5 @@
 %define url_ver %(echo %{version} | cut -d. -f1,2)
+%define	gstapi	0.10
 
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
@@ -11,7 +12,7 @@ Source0:	http://ftp.gnome.org/pub/GNOME/sources/frogr/%{url_ver}/%{name}-%{versi
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-doc-utils)
-BuildRequires:	pkgconfig(gstreamer-0.10)
+BuildRequires:	pkgconfig(gstreamer-%{gstapi})
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(json-glib-1.0)
 BuildRequires:	pkgconfig(libexif)
@@ -41,6 +42,6 @@ descriptions, setting tags and managing sets and groups pools.
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/
 %{_datadir}/pixmaps/frogr.xpm
-%{_datadir}/icons/hicolor/*/apps/frogr.*
+%{_iconsdir}/hicolor/*/apps/frogr.*
 %{_mandir}/man1/frogr.1*
 
