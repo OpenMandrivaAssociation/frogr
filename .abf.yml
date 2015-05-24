@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   frogr-0.9.tar.xz: b07e59b5050e43a1a1d263068ea7c1188971848f
+sources:
+  frogr-0.11.tar.xz: 0021165256f23898ab8d9a79414c36ed52f374ee
