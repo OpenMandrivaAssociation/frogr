@@ -36,7 +36,7 @@ descriptions, setting tags and managing sets and groups pools.
 %{_datadir}/applications/org.gnome.%{name}.desktop
 %{_datadir}/%{name}/
 #{_datadir}/pixmaps/frogr.xpm
-#{_datadir}/appdata/org.gnome.%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.frogr.appdata.xml
 %{_iconsdir}/*/*/apps/org.gnome.%{name}*.*
 %{_mandir}/man1/frogr.1*
 
