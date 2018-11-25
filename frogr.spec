@@ -31,14 +31,13 @@ all the basic Flickr features, including uploading pictures, adding
 descriptions, setting tags and managing sets and groups pools.
 
 %files -f %{name}.lang
-%doc AUTHORS ChangeLog COPYING NEWS README THANKS
+%doc AUTHORS NEWS README
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.gnome.%{name}.desktop
 %{_datadir}/%{name}/
-%{_datadir}/pixmaps/frogr.xpm
-%{_datadir}/appdata/frogr.appdata.xml
-%{_iconsdir}/hicolor/*/apps/frogr.*
-%{_iconsdir}/HighContrast/*/apps/frogr.*
+#{_datadir}/pixmaps/frogr.xpm
+%{_datadir}/appdata/org.gnome.%{name}.appdata.xml
+%{_iconsdir}/*/*/apps/org.gnome.%{name}*.*
 %{_mandir}/man1/frogr.1*
 
 #----------------------------------------------------------------------------
