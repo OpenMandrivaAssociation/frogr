@@ -3,7 +3,7 @@
 
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
-Version:	0.11
+Version:	1.5
 Release:	1
 License:	GPLv3+
 Group:		Graphical desktop/GNOME
@@ -14,12 +14,15 @@ BuildRequires:	itstool
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-doc-utils)
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
+BuildRequires:	pkgconfig(gthread-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(json-glib-1.0)
 BuildRequires:	pkgconfig(libexif)
 BuildRequires:	pkgconfig(libgcrypt)
 BuildRequires:	pkgconfig(libsoup-2.4)
 BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:	pkgconfig(libsoup-gnome-2.4)
+BuildRequires:	meson
 
 %description
 Frogr is a small application for the GNOME desktop that allows users to
@@ -44,11 +47,11 @@ descriptions, setting tags and managing sets and groups pools.
 %setup -q
 
 %build
-%configure2_5x
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-gnome
 
