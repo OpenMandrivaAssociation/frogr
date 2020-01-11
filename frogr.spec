@@ -46,6 +46,8 @@ descriptions, setting tags and managing sets and groups pools.
 %setup -q
 
 %build
+export CC=gcc
+export CXX=g++
 %meson
 %meson_build
 
