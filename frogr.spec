@@ -3,7 +3,7 @@
 
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
-Version:	1.6
+Version:	1.7
 Release:	1
 License:	GPLv3+
 Group:		Graphical desktop/GNOME
