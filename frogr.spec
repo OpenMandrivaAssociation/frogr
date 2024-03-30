@@ -4,11 +4,11 @@
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
 Version:	1.8.1
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Graphical desktop/GNOME
 Url:		https://live.gnome.org/Frogr
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/frogr/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	https://ftp.gnome.org/pub/GNOME/sources/frogr/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	pkgconfig(glib-2.0)
@@ -21,7 +21,6 @@ BuildRequires:	pkgconfig(libexif)
 BuildRequires:	pkgconfig(libgcrypt)
 BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	pkgconfig(libxml-2.0)
-BuildRequires:	pkgconfig(libsoup-gnome-2.4)
 BuildRequires:	meson
 
 %description
