@@ -4,7 +4,7 @@
 Summary:	Tool to Manage Flickr Accounts
 Name:		frogr
 Version:	1.8.1
-Release:	4
+Release:	5
 License:	GPLv3+
 Group:		Graphical desktop/GNOME
 Url:		https://live.gnome.org/Frogr
